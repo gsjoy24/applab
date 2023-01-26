@@ -1,0 +1,312 @@
+// Colors
+$btnClr: #2500f9;
+$headingClr: #242f51;
+
+// Global Styles
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	outline: none;
+	border: none;
+	color: inherit;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.6rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: $headingClr;
+	font-weight: 500;
+}
+
+p {
+	color: #616368;
+}
+
+img {
+	max-width: 100%;
+}
+
+#defult-btn {
+	padding: 1rem 2rem;
+	background-color: $btnClr;
+	letter-spacing: 1px;
+	font-weight: 300;
+	font-size: 1rem;
+	color: #fff;
+	border-radius: 5rem;
+	text-decoration: none;
+	transition: 0.3s ease-in;
+	&:hover {
+		background-color: $headingClr;
+	}
+}
+
+// =============TODO: header styles=============
+header {
+	background-image: url('bg/Home-bg.jpg');
+	background-size: 100%;
+	background-position: bottom center;
+	background-repeat: no-repeat;
+}
+
+// FIXME: navbar Styles
+.bg-light {
+	background-color: #fff;
+}
+.navbar-light {
+	.navbar-brand {
+		color: #eb933b;
+		font-size: 3rem;
+		font-weight: bold;
+		transition: 0.3s;
+		span {
+			color: $headingClr;
+		}
+		&:hover {
+			color: #ed7e0e;
+		}
+	}
+}
+
+.navbar-nav {
+	.nav-item {
+		.nav-link {
+			color: $headingClr;
+			padding: 1rem;
+			margin: 0 0.5rem;
+			float: right;
+		}
+	}
+}
+
+.navbar-light .navbar-toggler,
+.navbar-light .navbar-toggler:focus {
+	color: $headingClr;
+	border: none;
+	/* making disable the default box-shadow of ham-burger icon provided by bootstrap-5 */
+	box-shadow: none;
+}
+// FIXME: home section
+.home-content {
+	margin: auto;
+	padding-bottom: 2rem;
+}
+
+.home-text {
+	.sub-heading {
+		p {
+			i {
+				background-color: #feaa25;
+				border-radius: 50%;
+				color: #fff;
+			}
+			display: inline-block;
+			background-color: #e2eaed;
+			font-size: 1.5rem;
+			border-radius: 40rem;
+			color: $headingClr;
+			font-weight: 500;
+		}
+	}
+
+	.main-heading {
+		h1 {
+			font-size: 5rem;
+			font-weight: bold;
+			line-height: 1.3;
+		}
+		p {
+			width: 75%;
+		}
+	}
+}
+.home-picture {
+	img {
+		display: block;
+		width: 30rem;
+		margin: 3rem auto;
+	}
+}
+
+// =============TODO: Logos section styles=============
+
+.logos {
+	.all-logos {
+		max-width: 90rem;
+		padding: 2rem 0;
+		margin: auto;
+	}
+	img {
+		display: block;
+		width: 8rem;
+		margin: 2rem auto;
+	}
+}
+
+// =============TODO: App feature styles=============
+.feature-img {
+	margin-top: 5rem;
+	img {
+		width: 40rem;
+		display: block;
+		margin: auto;
+	}
+}
+.feature-title {
+	margin: 5rem 0;
+	text-align: center;
+	h1 {
+		font-weight: 700;
+	}
+	p {
+		max-width: 40rem;
+		display: block;
+		margin: auto;
+	}
+}
+.single-feature {
+	max-width: 80%;
+	display: block;
+	margin: auto;
+	.feature-logo {
+		width: 7rem;
+		height: 7rem;
+		padding: 1.5rem;
+		border-radius: 50%;
+		background-color: #000;
+		display: block;
+		float: right;
+		img {
+			width: 5rem;
+		}
+	}
+	.feature-text {
+		display: block;
+		margin: auto;
+		h3 {
+			font-weight: 600;
+			display: block;
+			margin: auto;
+		}
+		p {
+			max-width: 30rem;
+		}
+	}
+}
+.second-feature {
+	max-width: 100rem;
+	display: block;
+	margin: auto;
+}
+#single-feature-1 {
+	.feature-logo {
+		background-color: #ffecef;
+	}
+	.feature-text {
+		h3 {
+			color: #f55767;
+		}
+	}
+}
+#single-feature-2 {
+	.feature-logo {
+		background-color: #f4f4ff;
+	}
+	.feature-text {
+		h3 {
+			color: #2563ff;
+		}
+	}
+}
+#single-feature-3 {
+	.feature-logo {
+		background-color: #e4ffee;
+	}
+	.feature-text {
+		h3 {
+			color: #40975f;
+		}
+	}
+}
+// .row {
+// 	margin: block;
+// 	margin: auto;
+// }
+
+// =============TODO: second feature styles=============
+.title-h2 {
+	font-size: 3rem;
+	font-weight: 600;
+	max-width: 35rem;
+}
+
+.title-description {
+	max-width: 40rem;
+	font-weight: 400;
+}
+
+// =============TODO: second feature styles=============
+
+.design {
+	padding: 6rem 0;
+	margin: 2rem 0;
+}
+.design-image {
+	width: 50rem;
+}
+
+.section-content {
+	max-width: 55rem;
+	display: block;
+	margin: auto;
+	h2 {
+		font-size: 4.2rem;
+		margin-top: 10rem;
+	}
+	p {
+		max-width: 50rem;
+	}
+}
+
+// =============TODO: second feature styles=============
+.reason-logo {
+	width: 7rem;
+	height: 7rem;
+	padding: 1.5rem;
+	border-radius: 50%;
+}
+.reason-text {
+	max-width: 30rem;
+	margin: auto;
+}
+#reason-1 {
+	background-color: #ffecef;
+}
+#reason-2 {
+	background-color: #eaf9ff;
+}
+#reason-3 {
+	background-color: #fff6d3;
+}
+#reason-4 {
+	background-color: #e4ffee;
+}
+#reason-5 {
+	background-color: #f4f4ff;
+}
+#reason-6 {
+	background-color: #fdeee4;
+}

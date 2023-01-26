@@ -1,0 +1,41 @@
+// XX-Large devices (larger desktops, 1400px and down)
+@media (max-width: 140rem) {
+}
+
+// X-Large devices (large desktops, 1200px and down)
+@media (max-width: 120rem) {
+}
+
+// Large devices (desktops, 992px and down)
+@media (max-width: 99.2rem) {
+}
+
+// Medium devices (tablets, 768px and down)
+@media (max-width: 76.8rem) {
+}
+
+// Medium devices (mobile phones, 576px and down)
+@media (max-width: 57.6rem) {
+	.home-picture {
+		img {
+			display: block;
+			width: 17rem;
+			margin: 3rem auto;
+		}
+	}
+}
+
+// Medium devices (mobile phones, 480px and down)
+@media (max-width: 48rem) {
+}
+// Medium devices ( most uses mobile phones, 415px and down)
+@media (max-width: 4rem) {
+}
+
+// Medium devices ( small mobile phones, 360px and down)
+@media (max-width: 36rem) {
+}
+
+// Medium devices (extra small small mobile phones, 320px and down)
+@media (max-width: 32rem) {
+}
